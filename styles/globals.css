@@ -3,6 +3,30 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@font-face {
+  font-family: 'BCSans';
+  src: url('/fonts/BCSans-Regular_2f.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BCSans';
+  src: url('/fonts/BCSans-Bold_2f.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BCSans';
+  src: url('/fonts/BCSans-Italic_2f.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
